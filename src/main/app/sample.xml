@@ -10,6 +10,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="sampleFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <logger level="INFO" doc:name="Logger"/>
-        <logger level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
